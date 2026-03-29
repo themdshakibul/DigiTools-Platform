@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "AI Writing Pro",
+      "badge": "Best Seller",
+      "icon": "✍️",
+      "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+      "price": 29,
+      "priceType": "Mo",
+      "features": [
+        "Unlimited AI generations",
+        "50+ writing templates",
+        "Grammar checker"
+      ],
+      "buttonText": "Buy Now"
+    },
+    {
+      "id": 2,
+      "title": "Design Templates Pack",
+      "badge": "Popular",
+      "icon": "🎨",
+      "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+      "price": 49,
+      "priceType": "One-Time",
+      "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+      "buttonText": "Buy Now"
+    },
+    {
+      "id": 3,
+      "title": "Premium Stock Assets",
+      "badge": "New",
+      "icon": "📸",
+      "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+      "price": 19,
+      "priceType": "Mo",
+      "features": ["10M+ assets", "Commercial use", "No attribution"],
+      "buttonText": "Buy Now"
+    }
+  ]
+}
