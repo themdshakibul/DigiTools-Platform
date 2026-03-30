@@ -15,7 +15,10 @@ const Header = () => {
             </p>
           </div>
           <h2 className="text-5xl lg:text-7xl font-extrabold ">
-            Supercharge Your Digital Workflow
+            Supercharge Your{" "}
+            <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+              Digital Workflow
+            </span>
           </h2>
           <p>
             Access premium AI tools, design assets, templates, and productivity{" "}
@@ -58,7 +61,6 @@ const Header = () => {
           </div>
         </div>
       </section>
-      
     </>
   );
 };
