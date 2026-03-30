@@ -28,7 +28,7 @@ const Products = ({ ProductsPromis, SelectCard, setSelectCard }) => {
             onClick={() => setactiveBtn("Card")}
             className={`btn py-6 px-8 rounded-r-full font-semibold ${activeBtn === "Card" ? "rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]" : "rounded-l-none"}`}
           >
-            Cart (2)
+            Cart ({SelectCard.length})
           </button>
         </div>
 
@@ -37,6 +37,7 @@ const Products = ({ ProductsPromis, SelectCard, setSelectCard }) => {
           <div className="grid grid-cols-3 gap-10 py-5 pb-20">
             {ProductsCards.map((Product) => (
               <ProductCard
+                key={Product.id}
                 Product={Product}
                 SelectCard={SelectCard}
                 setSelectCard={setSelectCard}

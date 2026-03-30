@@ -20,21 +20,21 @@ const ProductCard = ({ Product, SelectCard, setSelectCard }) => {
         {/* batch */}
         <div className="absolute top-4 right-4 bg-gray-300 rounded-full px-4 py-2 w-fit">
           <span className="font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
-            {Product.badge}
+            {Product.tag}
           </span>
         </div>
 
         <div className="rounded-full p-4 border border-gray-300 bg-base-200 w-fit">
-          <img src={Product.image} alt="" className="w-10 object-contain" />
+          <img src={Product.icon} alt="" className="w-10 object-contain" />
         </div>
-        <h3 className="text-2xl font-bold">{Product.title}</h3>
+        <h3 className="text-2xl font-bold">{Product.name}</h3>
         <p className="opacity-90 text-xl font-semibold">
           {Product.description}
         </p>
         <h2 className="text-2xl font-bold">
           ${Product.price}
           <span className="opacity-90 text-xl font-semibold">
-            /{Product.priceType}
+            /{Product.period}
           </span>
         </h2>
         <div>
