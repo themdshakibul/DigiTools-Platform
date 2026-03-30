@@ -1,41 +1,146 @@
-{
-  "products": [
-    {
-      "id": 1,
-      "title": "AI Writing Pro",
-      "badge": "Best Seller",
-      "icon": "✍️",
-      "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
-      "price": 29,
-      "priceType": "Mo",
-      "features": [
-        "Unlimited AI generations",
-        "50+ writing templates",
-        "Grammar checker"
-      ],
-      "buttonText": "Buy Now"
-    },
-    {
-      "id": 2,
-      "title": "Design Templates Pack",
-      "badge": "Popular",
-      "icon": "🎨",
-      "description": "2000+ premium templates for social media, presentations, and marketing materials.",
-      "price": 49,
-      "priceType": "One-Time",
-      "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-      "buttonText": "Buy Now"
-    },
-    {
-      "id": 3,
-      "title": "Premium Stock Assets",
-      "badge": "New",
-      "icon": "📸",
-      "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
-      "price": 19,
-      "priceType": "Mo",
-      "features": ["10M+ assets", "Commercial use", "No attribution"],
-      "buttonText": "Buy Now"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "AI Writing Pro",
+    "badge": "Best Seller",
+    "image": "https://cdn-icons-png.flaticon.com/512/2593/2593544.png",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "priceType": "Mo",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker",
+      "SEO optimization",
+      "Plagiarism checker"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Design Templates Pack",
+    "badge": "Popular",
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055644.png",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "priceType": "One-Time",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license",
+      "Figma & Canva compatible",
+      "Editable in Photoshop"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Stock Assets",
+    "badge": "New",
+    "image": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "priceType": "Mo",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution required",
+      "4K videos & photos",
+      "Vector illustrations"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Video Editing AI",
+    "badge": "Trending",
+    "image": "https://cdn-icons-png.flaticon.com/512/4341/4341134.png",
+    "description": "Create professional videos with AI-powered editing, effects, and voiceovers.",
+    "price": 39,
+    "priceType": "Mo",
+    "features": [
+      "Auto video editing",
+      "AI voiceover generator",
+      "1000+ effects & transitions",
+      "Text-to-video",
+      "4K export"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Social Media Manager",
+    "badge": "New",
+    "image": "https://cdn-icons-png.flaticon.com/512/1968/1968641.png",
+    "description": "Schedule, analyze, and grow your social media presence automatically.",
+    "price": 25,
+    "priceType": "Mo",
+    "features": [
+      "Multi-platform posting",
+      "AI caption generator",
+      "Analytics dashboard",
+      "Hashtag suggestions",
+      "Auto-responder"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Logo Maker Pro",
+    "badge": "New",
+    "image": "https://cdn-icons-png.flaticon.com/512/831/831114.png",
+    "description": "Create stunning logos and brand identities in minutes with AI.",
+    "price": 15,
+    "priceType": "One-Time",
+    "features": [
+      "Unlimited logo generations",
+      "Vector file export",
+      "Brand kit creator",
+      "Multiple style options",
+      "Commercial rights"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Email Marketing Suite",
+    "badge": "Best Value",
+    "image": "https://cdn-icons-png.flaticon.com/512/2082/2082812.png",
+    "description": "Build, send, and optimize high-converting email campaigns effortlessly.",
+    "price": 22,
+    "priceType": "Mo",
+    "features": [
+      "Unlimited campaigns",
+      "Drag & drop builder",
+      "A/B testing",
+      "Automation workflows",
+      "Spam score checker"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Website Builder AI",
+    "badge": "New",
+    "image": "https://cdn-icons-png.flaticon.com/512/1336/1336494.png",
+    "description": "Build beautiful, responsive websites in seconds using AI.",
+    "price": 35,
+    "priceType": "Mo",
+    "features": [
+      "AI website generator",
+      "100+ templates",
+      "E-commerce ready",
+      "SEO optimized",
+      "Hosting included"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "All-in-One Creative Suite",
+    "badge": "Ultimate",
+    "image": "https://cdn-icons-png.flaticon.com/512/3242/3242130.png",
+    "description": "Get access to all our tools in one powerful subscription.",
+    "price": 79,
+    "priceType": "Mo",
+    "features": [
+      "All 8 tools included",
+      "Priority support",
+      "Early access to new features",
+      "Team collaboration",
+      "50% discount on future products"
+    ]
+  }
+]

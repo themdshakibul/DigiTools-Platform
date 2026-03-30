@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { use, useState } from "react";
+import ProductCard from "./ProductCard";
+import Cards from "./Cards";
 
-const Products = () => {
+const Products = ({ ProductsPromis, SelectCard, setSelectCard }) => {
+  const ProductsCards = use(ProductsPromis);
   const [activeBtn, setactiveBtn] = useState("Products");
 
   return (
@@ -30,11 +33,19 @@ const Products = () => {
         </div>
 
         {/* crds */}
-        <div>
-          <div>
-            <img src="" alt="" />
+        {activeBtn == "Products" ? (
+          <div className="grid grid-cols-3 gap-10 py-5 pb-20">
+            {ProductsCards.map((Product) => (
+              <ProductCard
+                Product={Product}
+                SelectCard={SelectCard}
+                setSelectCard={setSelectCard}
+              />
+            ))}
           </div>
-        </div>
+        ) : (
+          <Cards SelectCard={SelectCard} setSelectCard={setSelectCard} />
+        )}
       </section>
     </>
   );
