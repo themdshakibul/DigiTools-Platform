@@ -16,7 +16,7 @@ const GetStarted = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 mt-10">
             {/* card 1 */}
-            <div className="relative card card-body text-center shadow-lg bg-white card-border py-20 hover:transition-all hover:duration-150 hover:scale-105">
+            <div className="relative card card-body rounded-2xl text-center shadow-lg bg-white card-border py-20 transition-all duration-300 ease-in-out hover:scale-105">
               <img
                 src={UserImage}
                 alt=""
@@ -34,7 +34,7 @@ const GetStarted = () => {
               </div>
             </div>
             {/* card 2 */}
-            <div className="relative card card-body text-center shadow-lg bg-white card-border py-20 hover:transition-all hover:duration-150 hover:scale-105">
+            <div className="relative card card-body rounded-2xl text-center shadow-lg bg-white card-border py-20 transition-all duration-300 ease-in-out hover:scale-105">
               <img
                 src={PackageImage}
                 alt=""
@@ -52,7 +52,7 @@ const GetStarted = () => {
               </div>
             </div>
             {/* card 3 */}
-            <div className="relative card card-body text-center shadow-lg bg-white card-border py-20 hover:transition-all hover:duration-150 hover:scale-105">
+            <div className="relative card card-body rounded-2xl text-center shadow-lg bg-white card-border py-20 transition-all duration-300 ease-in-out hover:scale-105">
               <div className="rounded-full bg-[#f3e8fe] w-fit mx-auto">
                 <img src={RocketImage} alt="" className="w-fit mx-auto p-5" />
               </div>

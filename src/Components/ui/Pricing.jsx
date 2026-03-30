@@ -14,7 +14,7 @@ const Pricing = () => {
           </header>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div className="card card-body rounded-3xl border border-gray-300 shadow-2xl bg-[#F2F2F2] flex flex-col h-full">
+            <div className="card card-body rounded-3xl border border-gray-300 shadow-2xl bg-[#F2F2F2] flex flex-col h-full transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-cyan-100/50">
               <div className="flex-1 pt-8">
                 <h1 className="text-3xl font-bold">Starter</h1>
                 <p className="mt-1 opacity-90">Perfect for getting started</p>
@@ -42,7 +42,6 @@ const Pricing = () => {
                   </li>
                 </ul>
               </div>
-
               <div className="mt-auto pt-8 pb-2">
                 <button className="btn w-full rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-semibold py-6">
                   Get Started Free
@@ -50,7 +49,7 @@ const Pricing = () => {
               </div>
             </div>
 
-            <div className="card card-body rounded-3xl shadow-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white flex flex-col h-full relative">
+            <div className="card card-body rounded-3xl shadow-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white flex flex-col h-full relative transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-cyan-100/50">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2  bg-[#FEF3C6] text-[#BB4D00]  text-sm font-bold px-6 py-1.5 rounded-full shadow-md z-20">
                 Most Popular
               </div>
@@ -91,7 +90,6 @@ const Pricing = () => {
                   </li>
                 </ul>
               </div>
-
               <div className="mt-auto pt-8 pb-2">
                 <div className="btn py-6 rounded-full w-full bg-white">
                   <button className="bg-transparent bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-semibold">
@@ -101,7 +99,7 @@ const Pricing = () => {
               </div>
             </div>
 
-            <div className="card card-body rounded-3xl  border border-gray-300 shadow-2xl bg-[#F2F2F2] flex flex-col h-full">
+            <div className="card card-body rounded-3xl  border border-gray-300 shadow-2xl bg-[#F2F2F2] flex flex-col h-full transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-cyan-100/50">
               <div className="flex-1 pt-8">
                 <h1 className="text-3xl font-bold">Enterprise</h1>
                 <p className="mt-1 opacity-90">For teams and businesses</p>
