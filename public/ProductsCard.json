@@ -6,7 +6,6 @@
     "price": 15,
     "period": "one-time",
     "tag": "New",
-    "tagType": "new",
     "features": [
       "Unlimited logo generations",
       "Vector file export",
@@ -22,8 +21,7 @@
     "description": "Build, send, and optimize high-converting email campaigns effortlessly.",
     "price": 22,
     "period": "monthly",
-    "tag": "Best Value",
-    "tagType": "best value",
+    "tag": "popular",
     "features": [
       "Unlimited campaigns",
       "Drag & drop builder",
@@ -40,7 +38,6 @@
     "price": 290,
     "period": "yearly",
     "tag": "Best Seller",
-    "tagType": "best seller",
     "features": [
       "Unlimited AI generations",
       "50+ writing templates",
@@ -56,8 +53,7 @@
     "description": "Create professional videos with AI-powered editing, effects, and voiceovers.",
     "price": 39,
     "period": "monthly",
-    "tag": "Trending",
-    "tagType": "trending",
+    "tag": "New",
     "features": [
       "Auto video editing",
       "AI voiceover generator",
@@ -73,8 +69,7 @@
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 490,
     "period": "yearly",
-    "tag": "Popular",
-    "tagType": "popular",
+    "tag": "Best Seller",
     "features": [
       "2000+ templates",
       "Monthly updates",
@@ -91,7 +86,6 @@
     "price": 19,
     "period": "monthly",
     "tag": "New",
-    "tagType": "new",
     "features": [
       "10M+ assets",
       "Commercial use",
@@ -108,7 +102,6 @@
     "price": 25,
     "period": "monthly",
     "tag": "New",
-    "tagType": "new",
     "features": [
       "Multi-platform posting",
       "AI caption generator",
@@ -124,8 +117,7 @@
     "description": "Get access to all our tools in one powerful subscription.",
     "price": 79,
     "period": "monthly",
-    "tag": "Ultimate",
-    "tagType": "ultimate",
+    "tag": "Popular",
     "features": [
       "All 8 tools included",
       "Priority support",
@@ -142,7 +134,6 @@
     "price": 35,
     "period": "monthly",
     "tag": "New",
-    "tagType": "new",
     "features": [
       "AI website generator",
       "100+ templates",

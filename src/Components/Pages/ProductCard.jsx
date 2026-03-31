@@ -18,7 +18,9 @@ const ProductCard = ({ Product, SelectCard, setSelectCard }) => {
     <>
       <div className="relative card card-body rounded-2xl border border-gray-300 shadow-2xl space-y-5 transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-cyan-100/50">
         {/* batch */}
-        <div className="absolute top-4 right-4 bg-gray-300 rounded-full px-4 py-2 w-fit">
+        <div
+          className={`absolute top-4 right-4 rounded-full px-4 py-2 w-fit ${Product.tag === "New" ? "bg-green-300" : Product.tag === "Best Seller" ? "bg-[#FEF3C6]" : "bg-gray-300"}`}
+        >
           <span className="font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             {Product.tag}
           </span>
@@ -53,7 +55,7 @@ const ProductCard = ({ Product, SelectCard, setSelectCard }) => {
           onClick={handelClickBtn}
           className="btn rounded-full py-6 text-xl text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
         >
-          {isCards ? "Buy Now" : "Buy"}
+          {isCards ? "Buy Now" : "Card Added"}
         </button>
       </div>
     </>
