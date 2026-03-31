@@ -34,7 +34,7 @@ const Products = ({ ProductsPromis, SelectCard, setSelectCard }) => {
 
         {/* crds */}
         {activeBtn == "Products" ? (
-          <div className="grid grid-cols-3 gap-10 py-5 pb-20">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 py-5 pb-20">
             {ProductsCards.map((Product) => (
               <ProductCard
                 key={Product.id}

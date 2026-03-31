@@ -38,8 +38,8 @@ const ProductCard = ({ Product, SelectCard, setSelectCard }) => {
           </span>
         </h2>
         <div>
-          {Product.features.map((item) => (
-            <div key={item.id}>
+          {Product.features.map((item, ind) => (
+            <div key={ind}>
               <div className="flex items-center gap-2">
                 <span className="text-green-500">
                   <FaCheck />
